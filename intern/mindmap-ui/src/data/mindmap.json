@@ -1,0 +1,154 @@
+{
+  "id": "root",
+  "title": "Software Development",
+  "summary": "Overview of software development methodologies and practices",
+  "description": "Software development encompasses various methodologies, tools, and practices used to create applications and systems. This mindmap explores the key aspects of modern software development.",
+  "children": [
+    {
+      "id": "frontend",
+      "title": "Frontend Development",
+      "summary": "Client-side development focusing on user interfaces",
+      "description": "Frontend development involves creating the visual and interactive parts of web applications that users see and interact with directly in their browsers.",
+      "children": [
+        {
+          "id": "react",
+          "title": "React",
+          "summary": "Popular JavaScript library for building user interfaces",
+          "description": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components'.",
+          "children": [
+            {
+              "id": "components",
+              "title": "Components",
+              "summary": "Reusable building blocks of React applications",
+              "description": "Components are the fundamental building blocks of React applications. They allow you to split the UI into independent, reusable pieces."
+            },
+            {
+              "id": "hooks",
+              "title": "Hooks",
+              "summary": "Functions that let you use state and lifecycle features",
+              "description": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components. They don't work inside classes."
+            }
+          ]
+        },
+        {
+          "id": "nextjs",
+          "title": "Next.js",
+          "summary": "React framework for production",
+          "description": "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites for React based web applications."
+        },
+        {
+          "id": "mui",
+          "title": "Material-UI",
+          "summary": "React components implementing Google's Material Design",
+          "description": "Material-UI is a popular React UI framework that implements Google's Material Design. It provides pre-built components that are ready for use in production."
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend Development",
+      "summary": "Server-side development handling business logic and data",
+      "description": "Backend development focuses on server-side logic, databases, APIs, and the architecture that powers the application behind the scenes.",
+      "children": [
+        {
+          "id": "nodejs",
+          "title": "Node.js",
+          "summary": "JavaScript runtime built on Chrome's V8 engine",
+          "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript on the server-side."
+        },
+        {
+          "id": "databases",
+          "title": "Databases",
+          "summary": "Systems for storing and managing data",
+          "description": "Databases are organized collections of data that can be easily accessed, managed, and updated. They come in various types including relational and NoSQL.",
+          "children": [
+            {
+              "id": "postgresql",
+              "title": "PostgreSQL",
+              "summary": "Advanced open-source relational database",
+              "description": "PostgreSQL is a powerful, open-source object-relational database system with over 30 years of active development."
+            },
+            {
+              "id": "mongodb",
+              "title": "MongoDB",
+              "summary": "NoSQL document database",
+              "description": "MongoDB is a source-available cross-platform document-oriented database program. It uses JSON-like documents with optional schemas."
+            }
+          ]
+        },
+        {
+          "id": "apis",
+          "title": "APIs",
+          "summary": "Interfaces for communication between systems",
+          "description": "APIs (Application Programming Interfaces) define the methods and data formats that applications can use to communicate with each other.",
+          "children": [
+            {
+              "id": "rest",
+              "title": "REST APIs",
+              "summary": "Architectural style for designing networked applications",
+              "description": "REST (Representational State Transfer) is an architectural style for designing networked applications. It relies on a stateless, client-server protocol."
+            },
+            {
+              "id": "graphql",
+              "title": "GraphQL",
+              "summary": "Query language for APIs",
+              "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. It provides a complete and understandable description of the data in your API."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps",
+      "summary": "Practices combining software development and IT operations",
+      "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery.",
+      "children": [
+        {
+          "id": "ci-cd",
+          "title": "CI/CD",
+          "summary": "Continuous Integration and Continuous Delivery",
+          "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. CI focuses on integrating changes, while CD focuses on delivering those changes."
+        },
+        {
+          "id": "docker",
+          "title": "Docker",
+          "summary": "Platform for developing, shipping, and running applications",
+          "description": "Docker is a platform designed to help developers build, share, and run modern applications. It uses containerization technology to package software into standardized units."
+        },
+        {
+          "id": "kubernetes",
+          "title": "Kubernetes",
+          "summary": "Container orchestration platform",
+          "description": "Kubernetes is an open-source container orchestration platform designed to automate deploying, scaling, and operating application containers."
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "summary": "Quality assurance practices in software development",
+      "description": "Testing is a crucial part of software development that ensures code quality, functionality, and reliability. Various testing types help catch bugs and ensure software meets requirements.",
+      "children": [
+        {
+          "id": "unit-testing",
+          "title": "Unit Testing",
+          "summary": "Testing individual units or components",
+          "description": "Unit testing involves testing individual units or components of software to ensure they work as expected. It helps catch bugs early in development."
+        },
+        {
+          "id": "integration-testing",
+          "title": "Integration Testing",
+          "summary": "Testing interactions between different parts of the system",
+          "description": "Integration testing verifies that different modules or services used by your application work well together. It tests the interfaces between components."
+        },
+        {
+          "id": "e2e-testing",
+          "title": "End-to-End Testing",
+          "summary": "Testing complete user workflows",
+          "description": "End-to-end testing replicates real user scenarios from start to finish. It tests the entire application flow to ensure everything works together."
+        }
+      ]
+    }
+  ]
+}
